@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\IAR\common\bin\cspybat" -f "C:\单片机\省赛基础程序正式用\settings\LQ_K66FX_SmartCar.Debug.general.xcl" --backend -f "C:\单片机\省赛基础程序正式用\settings\LQ_K66FX_SmartCar.Debug.driver.xcl" 
+& "C:\IAR\common\bin\cspybat" -f "D:\githubCloneProj\2019-zhiliche\省赛基础程序正式用\settings\LQ_K66FX_SmartCar.Debug.general.xcl" --backend -f "D:\githubCloneProj\2019-zhiliche\省赛基础程序正式用\settings\LQ_K66FX_SmartCar.Debug.driver.xcl" 
 }
 else
 {
-& "C:\IAR\common\bin\cspybat" -f "C:\单片机\省赛基础程序正式用\settings\LQ_K66FX_SmartCar.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\单片机\省赛基础程序正式用\settings\LQ_K66FX_SmartCar.Debug.driver.xcl" 
+& "C:\IAR\common\bin\cspybat" -f "D:\githubCloneProj\2019-zhiliche\省赛基础程序正式用\settings\LQ_K66FX_SmartCar.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\githubCloneProj\2019-zhiliche\省赛基础程序正式用\settings\LQ_K66FX_SmartCar.Debug.driver.xcl" 
 }

@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\IAR\common\bin\cspybat" -f "C:\单片机\省赛基础程序正式用\settings\LQ_K66FX_SmartCar.Debug.general.xcl" --backend -f "C:\单片机\省赛基础程序正式用\settings\LQ_K66FX_SmartCar.Debug.driver.xcl" 
+"C:\IAR\common\bin\cspybat" -f "D:\githubCloneProj\2019-zhiliche\省赛基础程序正式用\settings\LQ_K66FX_SmartCar.Debug.general.xcl" --backend -f "D:\githubCloneProj\2019-zhiliche\省赛基础程序正式用\settings\LQ_K66FX_SmartCar.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\IAR\common\bin\cspybat" -f "C:\单片机\省赛基础程序正式用\settings\LQ_K66FX_SmartCar.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\单片机\省赛基础程序正式用\settings\LQ_K66FX_SmartCar.Debug.driver.xcl" 
+"C:\IAR\common\bin\cspybat" -f "D:\githubCloneProj\2019-zhiliche\省赛基础程序正式用\settings\LQ_K66FX_SmartCar.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\githubCloneProj\2019-zhiliche\省赛基础程序正式用\settings\LQ_K66FX_SmartCar.Debug.driver.xcl" 
 
 @echo off 
 :end
